@@ -1,0 +1,22 @@
+{
+	"extension": {
+		"name": "Stackoverflow Search",
+		"version": "1.0.0",
+		"description": "Open Stackoverflow website with your search query either in your default browser or in wakanda studio tab",
+		"icon": "stack-icon.png",
+		"senders": [
+			{
+				"location": "studioToolbar",
+				"icon": "stack-icon.png",
+				"actionName": "getToStackoverflow"
+			}
+		],
+		"actions": [
+			{
+				"name": "Stackoverflow",
+				"title": "Stackoverflow"
+			}
+		],
+		"lifetime": "application_lifetime"
+	}
+}
